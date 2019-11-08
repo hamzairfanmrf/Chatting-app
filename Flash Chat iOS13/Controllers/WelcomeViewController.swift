@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CLTypingLabel
 class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
@@ -15,7 +15,8 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+        titleLabel.text = "Flash Chat ⚡"
+    
     }
     
 
